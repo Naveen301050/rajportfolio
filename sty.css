@@ -1,0 +1,107 @@
+:root{
+    --bg--color:#322653;
+    --btn--color:#EA1179;
+    --box-shadoe:0px 0px 5px var(--btn--color);
+    --color:#fff;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: var(--bg--color);
+    font-family: "Kablammo", system-ui;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    
+
+}
+.header_menu{
+    width: 100%;
+    box-shadow: 0px 15px 5px var(--btn--color);
+    
+}
+
+.name{
+    color: var(--color);
+    font-weight: 900px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.namestyle{
+    color: #EA1179;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+nav ul a{
+    color:var(--color);
+    text-decoration: none ;
+}
+nav ul a:hover{
+    color: var(--btn--color);
+}
+.container{
+    width: 80%;
+    height: 90vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.container .left{
+    color: var(--color);
+    width: 50%;
+}
+.container .left h1{
+    margin: 0px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+    .container .right{
+        height: 90%;
+        width: 50%;
+    }
+    .right img{
+        height: 90%;
+        position: relative;
+        top: 30px;
+    }
+    .container .left label{
+        text-shadow: 1px 1px var(--color);
+        color: var(--btn--color);
+    }
+    .social-icons {
+        
+        gap: 15px;
+    }
+    
+    .social-icons img{
+        width: 30px;
+        height: 30px;
+        transition: transform 0.2s;
+    }
+    .img_id:hover{
+        transform: scale(1.5);
+    }
+    .experience_heading{
+        color: blue;
+        background-color: #fff;
+    }
+    
+    footer {
+        text-align: center;
+        padding: 1rem;
+        background-color: #333;
+        color: white;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+    
